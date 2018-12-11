@@ -1,0 +1,220 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+@charset "utf-8";
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {    
+    padding: 0;
+   
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media only screen 
+	and (min-width : 320px) 
+	and (max-width : 480px) {
+    #wrapper {
+        padding-left: 20px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 50px;
+}
+
+.panel-primary {
+    border-color: #6495ED;
+}
+
+.panel-primary .panel-heading {
+    border-color: #6495ED;
+    color: #fff;
+    background-color: #6495ED;
+}
+
+.panel-primary a {
+    color: #6495ED;
+}
+
+.panel-primary a:hover {
+    color: #6495ED;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+.panel-aqua {
+    border-color: #00c0ef;
+}
+
+.panel-aqua .panel-heading {
+    border-color: #00c0ef;
+    color: #fff;
+    background-color: #00c0ef;
+}
+
+.panel-aqua a {
+    color: #00c0ef;
+}
+
+.panel-aqua a:hover {
+    color: #00c0ef;
+}
+
+.panel-purple {
+    border-color: rgb(153,153,204);
+}
+.panel-purple .panel-heading {
+    border-color: rgb(153,153,204);
+    color: #fff;
+    background-color: rgb(153,153,204);
+}
+.panel-purple a {
+    color: rgb(153,153,204);
+}
+
+.panel-purple a:hover {
+    color: rgb(153,153,204);
+}
+
+fieldset, .preview_sql {
+    margin-top: 1em;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border: #aaa solid 1px;
+    padding: 1.5em;
+    background: #eee;
+    text-shadow: 1px 1px 2px #fff inset;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+
+fieldset fieldset {
+    margin: .8em;
+    background: #fff;
+    border: 1px solid #aaa;
+    background: #E8E8E8;
+
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #bbb;
+    max-width: 100%;
+}
+
+.group {
+
+    border: 1px solid #999;
+    background: #f3f3f3;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 2px 2px 5px #ccc;
+    -webkit-box-shadow: 2px 2px 5px #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.group h2 {
+    background-color: #bbb;
+    padding: .1em .3em;
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #777;
+    -moz-box-shadow: 1px 1px 15px #999 inset;
+    -webkit-box-shadow: 1px 1px 15px #999 inset;
+    box-shadow: 1px 1px 15px #999 inset;
+}
+
+.group-cnt {
+    padding: 0;
+    padding-left: .5em;
+    display: inline-block;
+    width: 98%;
+}
+
+.span3 {
+    width: 270px;
+  }
